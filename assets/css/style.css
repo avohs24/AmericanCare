@@ -96,3 +96,7 @@ textarea{
 footer{
   width: 100%;
 }
+
+a#care.indigo-text{
+  font-weight: 600;
+}
