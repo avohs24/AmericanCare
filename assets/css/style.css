@@ -40,8 +40,8 @@ h5 {
 }
 
 #services {
-  font-weight: 400;
-  color: #3F51B5;
+  font-weight: 500;
+  color: #4bacb8;
 }
 
 .other {
@@ -67,7 +67,7 @@ main {
 
 #sectionHeader {
   font-weight: 700;
-  color: #3F51B5;
+  color: #4bacb8;
 }
 
 #listCol {
@@ -100,10 +100,27 @@ footer {
   width: 100%;
 }
 
-a#care.indigo-text {
+a#care.text {
   font-weight: 600;
+  color: #4bacb8;
 }
 
 #about {
   text-align: center;
+}
+
+p{
+    color: black;
+}
+
+.footer{
+  color: black;
+}
+
+.btn-lg{
+  background-color: #4bacb8;
+}
+
+a.nav-item{
+  color: #4bacb8;
 }
