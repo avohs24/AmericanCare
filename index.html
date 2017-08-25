@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>American Care</title>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
         <!-- Bootstrap core CSS -->
@@ -14,6 +15,9 @@
         <link href="assets/css/mdb.min.css" rel="stylesheet">
         <!-- Your custom styles (optional) -->
         <link href="assets/css/style.css" rel="stylesheet">
+
+        <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+
     </head>
 
     <body>
@@ -32,13 +36,13 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <a class="indigo-text nav-link" href="#">About</a>
+                                <a class="indigo-text nav-link aboutLink" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="indigo-text nav-link" href="#">Services</a>
+                                <a class="indigo-text nav-link servicesLink" href="#servicesLink">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="indigo-text nav-link" href="#">Contact</a>
+                                <a class="indigo-text nav-link contactLink" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -67,7 +71,7 @@
 
         <!--Main Layout-->
         <main>
-          <div class='z-depth-5 servicesRow'>
+          <div class='z-depth-5 servicesRow' id='servicesLink'>
           <div class="divider-new">
             <h2 class="h2-responsive wow fadeInDown" id='sectionHeader'>Our Services</h2>
           </div>
@@ -179,8 +183,9 @@
             <div class='col-md-7'>
               <div class='card card-body'>
               <div class="divider-new dividerLine">
-                  <h4 class='contact_us'>Frequently Asked Questions</h4>
+                  <h4 class='contact_us'>About Us</h4>
               </div>
+              <h4 id='about'>We connect paitents from around the nation with only the best Licensed Professionals. Our priority is bringing you the highest quality care in the convienence and comfort of your home. </h4>
 
              </div>
 
@@ -235,7 +240,7 @@
 
         <!-- SCRIPTS -->
         <!-- JQuery -->
-        <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+        <!-- <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script> -->
         <!-- Bootstrap tooltips -->
         <script type="text/javascript" src="assets/js/popper.min.js"></script>
         <!-- Bootstrap core JavaScript -->
