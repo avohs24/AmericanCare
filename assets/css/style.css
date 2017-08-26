@@ -171,3 +171,16 @@ img.img-fluid.numbers{
   text-align: center;
   margin: auto;
 }
+
+@media only screen and (max-width: 768px) {
+  p{
+    line-height: 1;
+  }
+
+  #list{
+    display: none;
+  }
+  #listCol2{
+    display: none;
+  }
+}
