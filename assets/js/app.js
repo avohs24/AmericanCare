@@ -46,7 +46,7 @@ $(document).ready(function() {
   });
 });
 
-$("#contactLink").on('click', function(event) {
+$(".contactLink").on('click', function(event) {
 
   // Make sure this.hash has a value before overriding default behavior
   if (this.hash !== "") {
@@ -67,3 +67,7 @@ $("#contactLink").on('click', function(event) {
     });
   } // End if
 });
+
+
+window.sr = ScrollReveal();
+sr.reveal('.servicesRow', { duration: 1000 });
