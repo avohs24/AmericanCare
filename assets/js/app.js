@@ -71,3 +71,4 @@ $(".contactLink").on('click', function(event) {
 
 window.sr = ScrollReveal();
 sr.reveal('.servicesRow', { duration: 1000 });
+sr.reveal('.other', { duration: 1000 });
