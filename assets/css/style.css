@@ -8,7 +8,8 @@
 
 @media (max-width: 768px) {
   .navbar:not(.top-nav-collapse) {
-    background: #3F51B5 !important;
+    background: #C0C0C0 !important;
+    opacity: 0.7;
   }
 }
 
@@ -169,29 +170,6 @@ img.img-fluid.numbers {
   text-align: center;
   margin: auto;
 }
-
-@media only screen and (max-width: 768px) {
-  p {
-    line-height: 1;
-  }
-  #list {
-    display: none;
-  }
-  #listCol2 {
-    display: none;
-  }
-  #about {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  #listCol {
-    padding-left: 180px;
-    padding-top: 0;
-  }
-}
-
 .navigation {
   margin-left: 170px;
 }
@@ -204,4 +182,88 @@ h5.title {
 
 .img-fluid.logoBottom {
   padding-left: 40px;
+}
+
+.otherAbout{
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  p {
+    line-height: 1;
+  }
+  #list {
+    display: none;
+  }
+  #listCol2 {
+    display: none;
+  }
+  #about {
+    padding-left: 120px;
+  }
+  #services{
+    font-size: 20px;
+  }
+  .about_us{
+    padding-left: 120px;
+  }
+  div.card.card-body.other2{
+    background-size: 450px 300px;
+    height: 300px;
+  }
+  div.col-md-7{
+    display: none;
+  }
+  .display-3{
+    font-size: 50px;
+  }
+  h5{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  h5{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  h5.font-up.mb-5.font-bold{
+    padding-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  #listCol {
+    padding-left: 130px;
+    padding-top: 0;
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #listCol {
+    padding-left: 200px;
+    padding-top: 0;
+    font-size: 14px;
+  }
+  .experience{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  #listCol {
+    padding-left: 220px;
+    padding-top: 0;
+    font-size: 14px;
+  }
+  .experience{
+    font-size: 14px;
+  }
+.navbar:not(.top-nav-collapse){
+  background: #C0C0C0 !important;
+  opacity: 0.7;
+
+}
 }
