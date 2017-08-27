@@ -1,5 +1,5 @@
 .top-nav-collapse {
-  background-color: #82b1ff !important;
+  background-color: #4bacb8 !important;
 }
 
 .navbar:not(.top-nav-collapse) {
@@ -135,6 +135,7 @@ a.nav-item{
 .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link{
   color: #4bacb8;
   font-weight: 700;
+  font-size: 18px;
 }
 
 
@@ -183,4 +184,8 @@ img.img-fluid.numbers{
   #listCol2{
     display: none;
   }
+}
+
+.navigation{
+  margin-left: 170px;
 }
