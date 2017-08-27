@@ -189,6 +189,15 @@ img.img-fluid.numbers{
 
 
 }
+@media only screen and (max-width: 1024px) {
+
+  #listCol{
+    padding-left: 180px;
+    padding-top: 0;
+  }
+
+
+}
 
 .navigation{
   margin-left: 170px;
