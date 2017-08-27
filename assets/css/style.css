@@ -71,7 +71,7 @@ main {
 }
 
 #sectionHeader {
-  font-weight: 700;
+  /*font-weight: 700;*/
   color: #4bacb8;
 }
 
@@ -130,7 +130,7 @@ a.nav-item{
 
 .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link{
   color: black;
-  font-weight: 700;
+  /*font-weight: 700;*/
   font-size: 18px;
 }
 
