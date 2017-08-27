@@ -133,7 +133,7 @@ a.nav-item{
 }
 
 .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link{
-  color: #4bacb8;
+  color: black;
   font-weight: 700;
   font-size: 18px;
 }
