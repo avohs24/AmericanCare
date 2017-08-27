@@ -66,7 +66,7 @@ main {
   width: 50%;
 }
 
-.docRow{
+.docRow {
   text-align: center;
 }
 
@@ -87,7 +87,7 @@ textarea {
   height: 100px;
 }
 
-.social.img-fluid{
+.social.img-fluid {
   height: 50px;
   width: 50px;
 }
@@ -110,106 +110,98 @@ a#care.text {
   font-weight: 300;
 }
 
-p{
-    color: black;
-}
-
-.footer{
+p {
   color: black;
 }
 
-.btn-lg{
+.footer {
+  color: black;
+}
+
+.btn-lg {
   background-color: #4bacb8;
 }
 
-a.nav-item{
+a.nav-item {
   color: #4bacb8;
 }
 
-.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link{
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
   color: black;
   /*font-weight: 700;*/
   font-size: 18px;
 }
 
-.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
   color: #4bacb8;
 }
 
-
-.other2{
+.other2 {
   background-image: url('../images/woman.jpg');
   background-repeat: no-repeat;
   background-size: contain;
-
 }
 
-.card.card-body{
+.card.card-body {
   height: 400px;
 }
 
-.experience{
+.experience {
   text-align: center;
   line-height: 5px;
 }
 
-h6{
+h6 {
   font-size: 23px;
   font-weight: 400;
   color: #4bacb8;
 }
 
-body{
-    overflow-x:hidden;
+body {
+  overflow-x: hidden;
 }
 
-.modalRow{
+.modalRow {
   text-align: center;
 }
 
-img.img-fluid.numbers{
+img.img-fluid.numbers {
   text-align: center;
   margin: auto;
 }
 
 @media only screen and (max-width: 768px) {
-  p{
+  p {
     line-height: 1;
   }
-
-  #list{
+  #list {
     display: none;
   }
-  #listCol2{
+  #listCol2 {
     display: none;
   }
-  #about{
+  #about {
     display: none;
   }
-
-
 }
-@media only screen and (max-width: 1024px) {
 
-  #listCol{
+@media only screen and (max-width: 1024px) {
+  #listCol {
     padding-left: 180px;
     padding-top: 0;
   }
-
-
 }
 
-.navigation{
+.navigation {
   margin-left: 170px;
 }
 
-
-h5.title{
+h5.title {
   color: #4bacb8;
   border-bottom: solid 1px #4bacb8;
   width: 50%;
 }
 
-.img-fluid.logoBottom{
+.img-fluid.logoBottom {
   padding-left: 40px;
 }
