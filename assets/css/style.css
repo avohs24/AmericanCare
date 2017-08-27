@@ -87,12 +87,9 @@ textarea {
   height: 100px;
 }
 
-
-
-
-.img-fluid {
-  max-width: 100%;
-  max-height: auto;
+.social.img-fluid{
+  height: 50px;
+  width: 50px;
 }
 
 .dividerLine {
@@ -110,6 +107,7 @@ a#care.text {
 
 #about {
   text-align: center;
+  font-weight: 300;
 }
 
 p{
@@ -132,6 +130,10 @@ a.nav-item{
   color: black;
   /*font-weight: 700;*/
   font-size: 18px;
+}
+
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+  color: #4bacb8;
 }
 
 
@@ -181,8 +183,24 @@ img.img-fluid.numbers{
   #listCol2{
     display: none;
   }
+  #about{
+    display: none;
+  }
+
+
 }
 
 .navigation{
   margin-left: 170px;
+}
+
+
+h5.title{
+  color: #4bacb8;
+  border-bottom: solid 1px #4bacb8;
+  width: 50%;
+}
+
+.img-fluid.logoBottom{
+  padding-left: 40px;
 }
